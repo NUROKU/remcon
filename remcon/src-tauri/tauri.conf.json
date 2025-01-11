@@ -1,8 +1,8 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "try-tauri",
+  "productName": "remcon",
   "version": "0.1.0",
-  "identifier": "com.try-tauri.app",
+  "identifier": "com.nuroku.remcon",
   "build": {
     "beforeDevCommand": "yarn dev",
     "devUrl": "http://localhost:1420",
@@ -12,9 +12,9 @@
   "app": {
     "windows": [
       {
-        "title": "try-tauri",
+        "title": "remcon",
         "width": 800,
-        "height": 600
+        "height": 300
       }
     ],
     "security": {
