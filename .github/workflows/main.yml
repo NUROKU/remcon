@@ -31,6 +31,8 @@ jobs:
         run: |
           yarn install # change this to npm or pnpm depending on which one you use
           npm i typescript -g
+      - name: install app dependencies and build it
+        run: cd remcon && yarn && yarn build
       - uses: tauri-apps/tauri-action@v0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
