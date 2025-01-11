@@ -1,1 +1,1 @@
-#VOICEPEAK 分割まとめツール
+VOICEPEAK 分割まとめツール
