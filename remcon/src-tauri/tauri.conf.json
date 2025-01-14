@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "remcon",
+  "productName": "VOICEPEAK分割まとめツール",
   "version": "0.1.0",
   "identifier": "com.nuroku.remcon",
   "build": {
